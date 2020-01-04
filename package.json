@@ -1,0 +1,27 @@
+{
+  "name": "xrp-amendments",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "files": [
+    "dist/*",
+    "validator-names.json"
+  ],
+  "devDependencies": {
+    "@types/node": "^10.12.10",
+    "source-map-support": "^0.5.9",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "moment": "^2.22.2",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5",
+    "ripple-address-codec": "^2.0.1",
+    "ripple-binary-codec": "^0.2.0",
+    "ws": "^6.1.2"
+  },
+  "scripts": {
+    "prepare": "tsc",
+    "start": "tsc && node dist/app"
+  }
+}
