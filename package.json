@@ -18,7 +18,7 @@
     "request-promise-native": "^1.0.5",
     "ripple-address-codec": "^2.0.1",
     "ripple-binary-codec": "^0.2.0",
-    "ws": "^6.1.2"
+    "ws": "^7.4.6"
   },
   "scripts": {
     "prepare": "tsc",
